@@ -1,0 +1,24 @@
+.container {
+  border: 1px solid black;
+  margin-top: 30px;
+  display: flex;
+  padding: 50px;
+}
+.container .info-container {
+  width: 250px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.container .info-container .cityName {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.container .info-container img {
+  width: 150px;
+}
+.container .weather-container .temp {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=DisplayWeather.css.map */

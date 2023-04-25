@@ -1,0 +1,29 @@
+.container {
+  border: 1px solid black;
+  margin-top: 30px;
+  display: flex;
+  padding: 50px;
+  .info-container {
+    width: 250px;
+    // border: 1px solid black;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-content: center;
+    .cityName {
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    img {
+        // border: 1px solid black; 
+      width: 150px;
+    }
+  }
+  .weather-container{
+    .temp{
+        margin-bottom: 10px;
+    }
+  }
+}
